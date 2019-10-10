@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT allegation_id)
+FROM officer_first_allegation
