@@ -165,3 +165,5 @@ SELECT
     AVG(year_nine_allegation_count) as year_nine,
     AVG(year_ten_allegation_count) as year_ten
 FROM officer_subset;
+
+DROP VIEW officer_subset;
