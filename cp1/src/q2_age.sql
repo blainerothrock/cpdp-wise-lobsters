@@ -10,7 +10,7 @@ CREATE TEMP VIEW officer_subset AS
             WHEN date_part('year', CURRENT_DATE) - o.birth_year BETWEEN 55 AND 65 THEN '55 - 65'
             WHEN date_part('year', CURRENT_DATE) - o.birth_year > 65 THEN '>65'
           END as age_group,
-          COUNT(a.id) as allegation_count,
+          COUNT(a.id) as allegation_count
     FROM data_officer o
     LEFT JOIN data_officerallegation a on o.id = a.officer_id
     WHERE active = 'Yes'
