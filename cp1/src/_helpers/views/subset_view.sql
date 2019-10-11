@@ -1,7 +1,7 @@
 CREATE VIEW officer_subset AS
        SELECT
               o.id, o.first_name, o.last_name, o.birth_year, o.appointed_date,
-              date_part('year', CURRENT_DATE) - o.birth_year as estimated_age,
+              date_part('year', '2018-01-01'::DATE) - o.birth_year as estimated_age,
               (CURRENT_DATE::DATE - o.appointed_date) / 365 as years_on_force,
               CASE
                 WHEN date_part('year', CURRENT_DATE) - o.birth_year < 24 THEN '>24'
