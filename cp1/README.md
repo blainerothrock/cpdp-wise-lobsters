@@ -23,8 +23,7 @@
             * years on the force
             * total number of allegations
             * allegation count year/year
-    - `subset_aggregate.sql`
-        - aggregate information for the temp subset view
+        - returns aggregate data of the view
 * Question 2
     - `q2_age.sql`
         - queries the officer subset and groups allegation count by age-group

@@ -142,7 +142,7 @@ CREATE TEMP VIEW officer_subset AS
     WHERE active = 'Yes'
         AND appointed_date BETWEEN '2000-01-01' AND '2007-12-31'
     GROUP BY o.id
-    ORDER BY years_on_force DESC
+    ORDER BY years_on_force DESC;
 
 SELECT
     COUNT(id) as subset_size,

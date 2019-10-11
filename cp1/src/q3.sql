@@ -16,4 +16,4 @@ CREATE TEMP VIEW officer_first_allegation as
 SELECT category, COUNT(officer_id) as count
 FROM officer_first_allegation
 GROUP BY category
-ORDER BY count DESC
+ORDER BY count DESC;
