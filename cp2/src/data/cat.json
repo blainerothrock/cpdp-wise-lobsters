@@ -1,0 +1,794 @@
+{
+    "name": "allegations",
+    "children": [
+        {
+            "name": "Bribery / Official Corruption",
+            "children": [
+                {
+                    "name": "An Act To Circumvent Criminal Prosecution",
+                    "value": 25
+                },
+                {
+                    "name": "Bribe, Failure To Report",
+                    "value": 5
+                },
+                {
+                    "name": "Extortion",
+                    "value": 25
+                },
+                {
+                    "name": "False Testimony In Court",
+                    "value": 1
+                },
+                {
+                    "name": "Gang Affiliation",
+                    "value": 219
+                },
+                {
+                    "name": "Gratuity",
+                    "value": 10
+                },
+                {
+                    "name": "Recommend Professional Service",
+                    "value": 30
+                },
+                {
+                    "name": "Solicit / Accept Bribe (Non-Traffic)",
+                    "value": 72
+                },
+                {
+                    "name": "Solicit / Accept Bribe (Traffic)",
+                    "value": 99
+                },
+                {
+                    "name": "Use Of Official Position",
+                    "value": 72
+                }
+            ]
+        },
+        {
+            "name": "Conduct Unbecoming (Off-Duty)",
+            "children": [
+                {
+                    "name": "Abuse Of Authority",
+                    "value": 157
+                },
+                {
+                    "name": "Altercation / Disturbance - Neighbor",
+                    "value": 382
+                },
+                {
+                    "name": "Altercation / Disturbance - Other",
+                    "value": 2299
+                },
+                {
+                    "name": "Altercation / Disturbance - Traffic",
+                    "value": 454
+                },
+                {
+                    "name": "Association With Felon",
+                    "value": 3307
+                },
+                {
+                    "name": "Drivers License - Revoked / Suspended",
+                    "value": 20
+                },
+                {
+                    "name": "Equipment Irregularity",
+                    "value": 1
+                },
+                {
+                    "name": "Indebtedness To City",
+                    "value": 268
+                },
+                {
+                    "name": "Judicial Process/Directive - Contempt",
+                    "value": 51
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 1
+                },
+                {
+                    "name": "Misdemeanor Arrest",
+                    "value": 47
+                },
+                {
+                    "name": "Sexual Misconduct",
+                    "value": 31
+                },
+                {
+                    "name": "Traffic Violations (Other Than D.U.I.)",
+                    "value": 109
+                }
+            ]
+        },
+        {
+            "name": "Criminal Misconduct",
+            "children": [
+                {
+                    "name": "Arson",
+                    "value": 11
+                },
+                {
+                    "name": "Assault / Battery, Etc.",
+                    "value": 95
+                },
+                {
+                    "name": "Auto Theft",
+                    "value": 19
+                },
+                {
+                    "name": "Burglary",
+                    "value": 17
+                },
+                {
+                    "name": "Conspiracy To Commit A Crime",
+                    "value": 1193
+                },
+                {
+                    "name": "Criminal Sexual Assault",
+                    "value": 231
+                },
+                {
+                    "name": "Damage / Trespassing To Property",
+                    "value": 349
+                },
+                {
+                    "name": "Drugs / Controlled Substance, Possession Or Sale",
+                    "value": 381
+                },
+                {
+                    "name": "Murder / Manslaughter, Etc.",
+                    "value": 15
+                },
+                {
+                    "name": "Other Felony",
+                    "value": 122
+                },
+                {
+                    "name": "Police Impersonator (Advocate Section Use Only)",
+                    "value": 7
+                },
+                {
+                    "name": "Robbery",
+                    "value": 34
+                },
+                {
+                    "name": "Shoplifting",
+                    "value": 8
+                },
+                {
+                    "name": "Theft",
+                    "value": 715
+                }
+            ]
+        },
+        {
+            "name": "Domestic",
+            "children": [
+                {
+                    "name": "Domestic Altercation - Physical Abuse",
+                    "value": 2147
+                },
+                {
+                    "name": "Domestic Altercation/Incident - Off Duty",
+                    "value": 17
+                },
+                {
+                    "name": "Domestic Incident - Not Physical",
+                    "value": 2908
+                },
+                {
+                    "name": "Harassment",
+                    "value": 7
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 6
+                },
+                {
+                    "name": "Threats",
+                    "value": 2
+                },
+                {
+                    "name": "Verbal Abuse",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Drug / Alcohol Abuse",
+            "children": [
+                {
+                    "name": "D.U.I. - Off Duty",
+                    "value": 179
+                },
+                {
+                    "name": "D.U.I. - On Duty",
+                    "value": 11
+                },
+                {
+                    "name": "D.U.I., Drugs / Controlled Substance - Off Duty",
+                    "value": 11
+                },
+                {
+                    "name": "D.U.I., Drugs / Controlled Substance - On Duty",
+                    "value": 4
+                },
+                {
+                    "name": "Drug/Substance Abuse",
+                    "value": 1
+                },
+                {
+                    "name": "Impairment .04 Or Greater - Off Duty",
+                    "value": 40
+                },
+                {
+                    "name": "Impairment .04 Or Greater - On Duty",
+                    "value": 88
+                },
+                {
+                    "name": "Intoxicated Off Duty",
+                    "value": 148
+                },
+                {
+                    "name": "Intoxicated On Duty",
+                    "value": 171
+                },
+                {
+                    "name": "Just Cause",
+                    "value": 96
+                },
+                {
+                    "name": "Positive Drug Screen - Originated From Complaint",
+                    "value": 42
+                },
+                {
+                    "name": "Positive Drug Screen - Other Physical Exam",
+                    "value": 208
+                },
+                {
+                    "name": "Positive Drug Screen - Promotion Physical",
+                    "value": 5
+                },
+                {
+                    "name": "Positive Drug Screen - Recruit",
+                    "value": 6
+                },
+                {
+                    "name": "Possession / Drinking Alcohol - On Duty",
+                    "value": 38
+                },
+                {
+                    "name": "Refusal Of Direct Order To Provide Drug Screen Specimen",
+                    "value": 23
+                },
+                {
+                    "name": "Use / Abuse Drugs / Controlled Substance - Off Duty",
+                    "value": 85
+                },
+                {
+                    "name": "Use / Abuse Drugs / Controlled Substance - On Duty",
+                    "value": 37
+                }
+            ]
+        },
+        {
+            "name": "Excessive Force",
+            "children": [
+                {
+                    "name": "Firearm Discharge With Hits / On Duty",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "False Arrest",
+            "children": [
+                {
+                    "name": "Illegal Arrest / False Arrest",
+                    "value": 3426
+                },
+                {
+                    "name": "Improper Detention",
+                    "value": 7
+                },
+                {
+                    "name": "Unlawful / Excessive Investigative Detention (Witness)",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "First Amendment",
+            "children": [
+                {
+                    "name": "Failure To Ensure Civil Rights",
+                    "value": 7
+                },
+                {
+                    "name": "First Amendment",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "Illegal Search",
+            "children": [
+                {
+                    "name": "Improper Search Of Person",
+                    "value": 2865
+                },
+                {
+                    "name": "Improper Search Of Vehicle",
+                    "value": 2427
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 1
+                },
+                {
+                    "name": "Search Of Premise Without Warrant",
+                    "value": 8208
+                }
+            ]
+        },
+        {
+            "name": "Lockup Procedures",
+            "children": [
+                {
+                    "name": "Arrest, Improper Procedures",
+                    "value": 356
+                },
+                {
+                    "name": "Bonding/Booking/Processing",
+                    "value": 292
+                },
+                {
+                    "name": "Escape",
+                    "value": 598
+                },
+                {
+                    "name": "Excessive Detention - After Arrest",
+                    "value": 69
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 621
+                },
+                {
+                    "name": "Prisoners Property",
+                    "value": 3688
+                },
+                {
+                    "name": "Proper Care - Injury / Death",
+                    "value": 386
+                },
+                {
+                    "name": "Search - Person / Property",
+                    "value": 443
+                },
+                {
+                    "name": "Telephone / Attorney / Relative Privileges",
+                    "value": 186
+                }
+            ]
+        },
+        {
+            "name": "Operation/Personnel Violations",
+            "children": [
+                {
+                    "name": "Absent Without Permission",
+                    "value": 433
+                },
+                {
+                    "name": "Compensatory Time",
+                    "value": 90
+                },
+                {
+                    "name": "Conduct Unbecoming",
+                    "value": 1
+                },
+                {
+                    "name": "Court Attendance Irregularities",
+                    "value": 287
+                },
+                {
+                    "name": "Eeo Investigations",
+                    "value": 292
+                },
+                {
+                    "name": "Forwarded To O.E.C.",
+                    "value": 19
+                },
+                {
+                    "name": "Inadequate / Failure To Provide Service",
+                    "value": 11860
+                },
+                {
+                    "name": "Insubordination",
+                    "value": 762
+                },
+                {
+                    "name": "Inventory Procedures",
+                    "value": 2672
+                },
+                {
+                    "name": "Late - Roll Call / Assignment / Court",
+                    "value": 42
+                },
+                {
+                    "name": "Leaving Assignment (District, Beat, Sector, Court)",
+                    "value": 204
+                },
+                {
+                    "name": "Lunch / Personal Violations",
+                    "value": 17
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 8017
+                },
+                {
+                    "name": "Misuse Of Department Equipment / Supplies",
+                    "value": 648
+                },
+                {
+                    "name": "Misuse Of Department Records",
+                    "value": 195
+                },
+                {
+                    "name": "Neglect Of Duty",
+                    "value": 10320
+                },
+                {
+                    "name": "Political Activity",
+                    "value": 40
+                },
+                {
+                    "name": "Reports",
+                    "value": 4126
+                },
+                {
+                    "name": "Residency",
+                    "value": 227
+                },
+                {
+                    "name": "Seat Belts",
+                    "value": 812
+                },
+                {
+                    "name": "Secondary/Special Employment",
+                    "value": 122
+                },
+                {
+                    "name": "Slow / No Response",
+                    "value": 2129
+                },
+                {
+                    "name": "Street",
+                    "value": 2
+                },
+                {
+                    "name": "Traffic Pursuit",
+                    "value": 603
+                },
+                {
+                    "name": "Unfit For Duty",
+                    "value": 15
+                },
+                {
+                    "name": "Vehicle Licensing - State",
+                    "value": 544
+                },
+                {
+                    "name": "Weapon / Ammunition",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Racial Profiling",
+            "children": [
+                {
+                    "name": "Racial Profiling",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "name": "Supervisory Responsibilities",
+            "children": [
+                {
+                    "name": "Conduct An Improper / Inadequate Investigation",
+                    "value": 119
+                },
+                {
+                    "name": "Fail To Obtain A Complaint Register Number",
+                    "value": 484
+                },
+                {
+                    "name": "Failure To Ensure - Civil Rights",
+                    "value": 450
+                },
+                {
+                    "name": "Federal Civil Suit",
+                    "value": 593
+                },
+                {
+                    "name": "Initiate Proper Action",
+                    "value": 169
+                },
+                {
+                    "name": "Properly Direct Subordinate",
+                    "value": 66
+                },
+                {
+                    "name": "Properly Review / Inspect Subordinate",
+                    "value": 26
+                },
+                {
+                    "name": "State Civil Suit",
+                    "value": 391
+                }
+            ]
+        },
+        {
+            "name": "Traffic",
+            "children": [
+                {
+                    "name": "Fail To Enforce Traffic Regulations",
+                    "value": 157
+                },
+                {
+                    "name": "Improper Processing / Reporting / Procedures",
+                    "value": 1029
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 1920
+                },
+                {
+                    "name": "Misconduct During Issuance Of Citation",
+                    "value": 2650
+                },
+                {
+                    "name": "Parking Complaints",
+                    "value": 290
+                },
+                {
+                    "name": "Preventable Traffic Accident",
+                    "value": 356
+                },
+                {
+                    "name": "Violation (Other Than D.U.I.) - On Duty",
+                    "value": 39
+                }
+            ]
+        },
+        {
+            "name": "Unknown",
+            "children": [
+                {
+                    "name": "Motor Vehicle Fatality - On Duty",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Use Of Force",
+            "children": [
+                {
+                    "name": "Arrestee-After Arrest,Prior To Lockup",
+                    "value": 3
+                },
+                {
+                    "name": "Arrestee-During  Arrest",
+                    "value": 18
+                },
+                {
+                    "name": "Arrestee-Lockup/Deletion",
+                    "value": 3
+                },
+                {
+                    "name": "Choked",
+                    "value": 9
+                },
+                {
+                    "name": "Civil Suits - Third Party",
+                    "value": 39
+                },
+                {
+                    "name": "Closed Hand Strike (Punch)",
+                    "value": 27
+                },
+                {
+                    "name": "Coercion - Violence",
+                    "value": 3
+                },
+                {
+                    "name": "Dragged",
+                    "value": 2
+                },
+                {
+                    "name": "Excessive Force - Taser - Use Of",
+                    "value": 21
+                },
+                {
+                    "name": "Excessive Force - Use Of Firearm / Off Duty - Injury",
+                    "value": 2613
+                },
+                {
+                    "name": "Excessive Force - Use Of Firearm / Off Duty - No Injury",
+                    "value": 759
+                },
+                {
+                    "name": "Excessive Force - Use Of Firearm / On Duty - Injury",
+                    "value": 1257
+                },
+                {
+                    "name": "Excessive Force - Use Of Firearm / On Duty - No Injury",
+                    "value": 125
+                },
+                {
+                    "name": "Excessive Force / Off Duty - Injury",
+                    "value": 648
+                },
+                {
+                    "name": "Excessive Force / Off Duty - No Injury",
+                    "value": 4455
+                },
+                {
+                    "name": "Excessive Force / On Duty - Injury",
+                    "value": 17017
+                },
+                {
+                    "name": "Excessive Force / On Duty - No Injury",
+                    "value": 3015
+                },
+                {
+                    "name": "Firearm Discharge No Hits - Handgun",
+                    "value": 2
+                },
+                {
+                    "name": "Firearm Discharge With Hits - Handgun",
+                    "value": 11
+                },
+                {
+                    "name": "Firearm Discharge With Hits - Rifle / Assault Weapon",
+                    "value": 1
+                },
+                {
+                    "name": "Firearm Discharge With Hits / Off Duty",
+                    "value": 1
+                },
+                {
+                    "name": "Firearm Used As An Impact Weapon",
+                    "value": 1
+                },
+                {
+                    "name": "Impact Weapon - Authorized (Baton / Asp)",
+                    "value": 2
+                },
+                {
+                    "name": "Impact Weapon - Unauthorized (Flashlight, Handcuffs, Etc)",
+                    "value": 1
+                },
+                {
+                    "name": "Injury",
+                    "value": 11
+                },
+                {
+                    "name": "Injury / Death (Under Color Of Law)",
+                    "value": 8
+                },
+                {
+                    "name": "Kicked",
+                    "value": 6
+                },
+                {
+                    "name": "Knee Strike",
+                    "value": 1
+                },
+                {
+                    "name": "Miscellaneous",
+                    "value": 88
+                },
+                {
+                    "name": "No Arrest",
+                    "value": 3
+                },
+                {
+                    "name": "No Injury",
+                    "value": 4
+                },
+                {
+                    "name": "Open Hand Strike (Slap)",
+                    "value": 8
+                },
+                {
+                    "name": "Push/Pull/Grab",
+                    "value": 14
+                },
+                {
+                    "name": "Shots Fired - No Hits",
+                    "value": 2
+                },
+                {
+                    "name": "Stomped / Stepped On",
+                    "value": 1
+                },
+                {
+                    "name": "Take Down (Thrown To Ground)",
+                    "value": 11
+                },
+                {
+                    "name": "Taser (Probe Discharge)",
+                    "value": 4
+                },
+                {
+                    "name": "Traffic",
+                    "value": 3
+                },
+                {
+                    "name": "U Converted To C.R. (Records Keeping Only, Initial)",
+                    "value": 156
+                },
+                {
+                    "name": "Unjustified Pointing Of Firearm - Handgun",
+                    "value": 1
+                },
+                {
+                    "name": "Unnecessary Display Of Weapon / Off Duty",
+                    "value": 574
+                },
+                {
+                    "name": "Unnecessary Display Of Weapon / On Duty",
+                    "value": 374
+                },
+                {
+                    "name": "Unnecessary Physical Contact -On Duty",
+                    "value": 12
+                },
+                {
+                    "name": "Unnecessary Physical Contact / Off Duty - No Injury",
+                    "value": 609
+                },
+                {
+                    "name": "Unnecessary Physical Contact / On Duty - No Injury",
+                    "value": 556
+                },
+                {
+                    "name": "Unnecessary Physical Contact/ Off -No Injury",
+                    "value": 1
+                },
+                {
+                    "name": "Vehicle",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Verbal Abuse",
+            "children": [
+                {
+                    "name": "Miscellaneous",
+                    "value": 1
+                },
+                {
+                    "name": "Racial / Ethnic, Etc.",
+                    "value": 1830
+                },
+                {
+                    "name": "Sexual Orientation",
+                    "value": 1269
+                },
+                {
+                    "name": "Use Of Profanity",
+                    "value": 6800
+                }
+            ]
+        }
+    ]
+}

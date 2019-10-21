@@ -1,0 +1,177 @@
+category,allegation_name,count
+Bribery / Official Corruption,An Act To Circumvent Criminal Prosecution,25
+Bribery / Official Corruption,"Bribe, Failure To Report",5
+Bribery / Official Corruption,Extortion,25
+Bribery / Official Corruption,False Testimony In Court,1
+Bribery / Official Corruption,Gang Affiliation,219
+Bribery / Official Corruption,Gratuity,10
+Bribery / Official Corruption,Recommend Professional Service,30
+Bribery / Official Corruption,Solicit / Accept Bribe (Non-Traffic),72
+Bribery / Official Corruption,Solicit / Accept Bribe (Traffic),99
+Bribery / Official Corruption,Use Of Official Position,72
+Conduct Unbecoming (Off-Duty),Abuse Of Authority,157
+Conduct Unbecoming (Off-Duty),Altercation / Disturbance - Neighbor,382
+Conduct Unbecoming (Off-Duty),Altercation / Disturbance - Other,2299
+Conduct Unbecoming (Off-Duty),Altercation / Disturbance - Traffic,454
+Conduct Unbecoming (Off-Duty),Association With Felon,3307
+Conduct Unbecoming (Off-Duty),Drivers License - Revoked / Suspended,20
+Conduct Unbecoming (Off-Duty),Equipment Irregularity,1
+Conduct Unbecoming (Off-Duty),Indebtedness To City,268
+Conduct Unbecoming (Off-Duty),Judicial Process/Directive - Contempt,51
+Conduct Unbecoming (Off-Duty),Miscellaneous,1
+Conduct Unbecoming (Off-Duty),Misdemeanor Arrest,47
+Conduct Unbecoming (Off-Duty),Sexual Misconduct,31
+Conduct Unbecoming (Off-Duty),Traffic Violations (Other Than D.U.I.),109
+Criminal Misconduct,Arson,11
+Criminal Misconduct,"Assault / Battery, Etc.",95
+Criminal Misconduct,Auto Theft,19
+Criminal Misconduct,Burglary,17
+Criminal Misconduct,Conspiracy To Commit A Crime,1193
+Criminal Misconduct,Criminal Sexual Assault,231
+Criminal Misconduct,Damage / Trespassing To Property,349
+Criminal Misconduct,"Drugs / Controlled Substance, Possession Or Sale",381
+Criminal Misconduct,"Murder / Manslaughter, Etc.",15
+Criminal Misconduct,Other Felony,122
+Criminal Misconduct,Police Impersonator (Advocate Section Use Only),7
+Criminal Misconduct,Robbery,34
+Criminal Misconduct,Shoplifting,8
+Criminal Misconduct,Theft,715
+Domestic,Domestic Altercation - Physical Abuse,2147
+Domestic,Domestic Altercation/Incident - Off Duty,17
+Domestic,Domestic Incident - Not Physical,2908
+Domestic,Harassment,7
+Domestic,Miscellaneous,6
+Domestic,Threats,2
+Domestic,Verbal Abuse,2
+Drug / Alcohol Abuse,D.U.I. - Off Duty,179
+Drug / Alcohol Abuse,D.U.I. - On Duty,11
+Drug / Alcohol Abuse,"D.U.I., Drugs / Controlled Substance - Off Duty",11
+Drug / Alcohol Abuse,"D.U.I., Drugs / Controlled Substance - On Duty",4
+Drug / Alcohol Abuse,Drug/Substance Abuse,1
+Drug / Alcohol Abuse,Impairment .04 Or Greater - Off Duty,40
+Drug / Alcohol Abuse,Impairment .04 Or Greater - On Duty,88
+Drug / Alcohol Abuse,Intoxicated Off Duty,148
+Drug / Alcohol Abuse,Intoxicated On Duty,171
+Drug / Alcohol Abuse,Just Cause,96
+Drug / Alcohol Abuse,Positive Drug Screen - Originated From Complaint,42
+Drug / Alcohol Abuse,Positive Drug Screen - Other Physical Exam,208
+Drug / Alcohol Abuse,Positive Drug Screen - Promotion Physical,5
+Drug / Alcohol Abuse,Positive Drug Screen - Recruit,6
+Drug / Alcohol Abuse,Possession / Drinking Alcohol - On Duty,38
+Drug / Alcohol Abuse,Refusal Of Direct Order To Provide Drug Screen Specimen,23
+Drug / Alcohol Abuse,Use / Abuse Drugs / Controlled Substance - Off Duty,85
+Drug / Alcohol Abuse,Use / Abuse Drugs / Controlled Substance - On Duty,37
+Excessive Force,Firearm Discharge With Hits / On Duty,14
+False Arrest,Illegal Arrest / False Arrest,3426
+False Arrest,Improper Detention,7
+False Arrest,Unlawful / Excessive Investigative Detention (Witness),1
+First Amendment,Failure To Ensure Civil Rights,7
+First Amendment,First Amendment,30
+Illegal Search,Improper Search Of Person,2865
+Illegal Search,Improper Search Of Vehicle,2427
+Illegal Search,Miscellaneous,1
+Illegal Search,Search Of Premise Without Warrant,8208
+Lockup Procedures,"Arrest, Improper Procedures",356
+Lockup Procedures,Bonding/Booking/Processing,292
+Lockup Procedures,Escape,598
+Lockup Procedures,Excessive Detention - After Arrest,69
+Lockup Procedures,Miscellaneous,621
+Lockup Procedures,Prisoners Property,3688
+Lockup Procedures,Proper Care - Injury / Death,386
+Lockup Procedures,Search - Person / Property,443
+Lockup Procedures,Telephone / Attorney / Relative Privileges,186
+Operation/Personnel Violations,Absent Without Permission,433
+Operation/Personnel Violations,Compensatory Time,90
+Operation/Personnel Violations,Conduct Unbecoming,1
+Operation/Personnel Violations,Court Attendance Irregularities,287
+Operation/Personnel Violations,Eeo Investigations,292
+Operation/Personnel Violations,Forwarded To O.E.C.,19
+Operation/Personnel Violations,Inadequate / Failure To Provide Service,11860
+Operation/Personnel Violations,Insubordination,762
+Operation/Personnel Violations,Inventory Procedures,2672
+Operation/Personnel Violations,Late - Roll Call / Assignment / Court,42
+Operation/Personnel Violations,"Leaving Assignment (District, Beat, Sector, Court)",204
+Operation/Personnel Violations,Lunch / Personal Violations,17
+Operation/Personnel Violations,Miscellaneous,8017
+Operation/Personnel Violations,Misuse Of Department Equipment / Supplies,648
+Operation/Personnel Violations,Misuse Of Department Records,195
+Operation/Personnel Violations,Neglect Of Duty,10320
+Operation/Personnel Violations,Political Activity,40
+Operation/Personnel Violations,Reports,4126
+Operation/Personnel Violations,Residency,227
+Operation/Personnel Violations,Seat Belts,812
+Operation/Personnel Violations,Secondary/Special Employment,122
+Operation/Personnel Violations,Slow / No Response,2129
+Operation/Personnel Violations,Street,2
+Operation/Personnel Violations,Traffic Pursuit,603
+Operation/Personnel Violations,Unfit For Duty,15
+Operation/Personnel Violations,Vehicle Licensing - State,544
+Operation/Personnel Violations,Weapon / Ammunition,500
+Racial Profiling,Racial Profiling,20
+Supervisory Responsibilities,Conduct An Improper / Inadequate Investigation,119
+Supervisory Responsibilities,Fail To Obtain A Complaint Register Number,484
+Supervisory Responsibilities,Failure To Ensure - Civil Rights,450
+Supervisory Responsibilities,Federal Civil Suit,593
+Supervisory Responsibilities,Initiate Proper Action,169
+Supervisory Responsibilities,Properly Direct Subordinate,66
+Supervisory Responsibilities,Properly Review / Inspect Subordinate,26
+Supervisory Responsibilities,State Civil Suit,391
+Traffic,Fail To Enforce Traffic Regulations,157
+Traffic,Improper Processing / Reporting / Procedures,1029
+Traffic,Miscellaneous,1920
+Traffic,Misconduct During Issuance Of Citation,2650
+Traffic,Parking Complaints,290
+Traffic,Preventable Traffic Accident,356
+Traffic,Violation (Other Than D.U.I.) - On Duty,39
+Unknown,Motor Vehicle Fatality - On Duty,1
+Use Of Force,"Arrestee-After Arrest,Prior To Lockup",3
+Use Of Force,Arrestee-During  Arrest,18
+Use Of Force,Arrestee-Lockup/Deletion,3
+Use Of Force,Choked,9
+Use Of Force,Civil Suits - Third Party,39
+Use Of Force,Closed Hand Strike (Punch),27
+Use Of Force,Coercion - Violence,3
+Use Of Force,Dragged,2
+Use Of Force,Excessive Force - Taser - Use Of,21
+Use Of Force,Excessive Force - Use Of Firearm / Off Duty - Injury,2613
+Use Of Force,Excessive Force - Use Of Firearm / Off Duty - No Injury,759
+Use Of Force,Excessive Force - Use Of Firearm / On Duty - Injury,1257
+Use Of Force,Excessive Force - Use Of Firearm / On Duty - No Injury,125
+Use Of Force,Excessive Force / Off Duty - Injury,648
+Use Of Force,Excessive Force / Off Duty - No Injury,4455
+Use Of Force,Excessive Force / On Duty - Injury,17017
+Use Of Force,Excessive Force / On Duty - No Injury,3015
+Use Of Force,Firearm Discharge No Hits - Handgun,2
+Use Of Force,Firearm Discharge With Hits - Handgun,11
+Use Of Force,Firearm Discharge With Hits - Rifle / Assault Weapon,1
+Use Of Force,Firearm Discharge With Hits / Off Duty,1
+Use Of Force,Firearm Used As An Impact Weapon,1
+Use Of Force,Impact Weapon - Authorized (Baton / Asp),2
+Use Of Force,"Impact Weapon - Unauthorized (Flashlight, Handcuffs, Etc)",1
+Use Of Force,Injury,11
+Use Of Force,Injury / Death (Under Color Of Law),8
+Use Of Force,Kicked,6
+Use Of Force,Knee Strike,1
+Use Of Force,Miscellaneous,88
+Use Of Force,No Arrest,3
+Use Of Force,No Injury,4
+Use Of Force,Open Hand Strike (Slap),8
+Use Of Force,Push/Pull/Grab,14
+Use Of Force,Shots Fired - No Hits,2
+Use Of Force,Stomped / Stepped On,1
+Use Of Force,Take Down (Thrown To Ground),11
+Use Of Force,Taser (Probe Discharge),4
+Use Of Force,Traffic,3
+Use Of Force,"U Converted To C.R. (Records Keeping Only, Initial)",156
+Use Of Force,Unjustified Pointing Of Firearm - Handgun,1
+Use Of Force,Unnecessary Display Of Weapon / Off Duty,574
+Use Of Force,Unnecessary Display Of Weapon / On Duty,374
+Use Of Force,Unnecessary Physical Contact -On Duty,12
+Use Of Force,Unnecessary Physical Contact / Off Duty - No Injury,609
+Use Of Force,Unnecessary Physical Contact / On Duty - No Injury,556
+Use Of Force,Unnecessary Physical Contact/ Off -No Injury,1
+Use Of Force,Vehicle,1
+Verbal Abuse,Miscellaneous,1
+Verbal Abuse,"Racial / Ethnic, Etc.",1830
+Verbal Abuse,Sexual Orientation,1269
+Verbal Abuse,Use Of Profanity,6800

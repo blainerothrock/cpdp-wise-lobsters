@@ -1,5 +1,12 @@
 ## Checkpoint 1
 
+# Question 1 (d3 inteactive)
+- [CPDP First Civilian Allegation Count By Category and Name](https://observablehq.com/@blainerothrock/cpdp-first-allegation-by-category-and-name)
+- [CPDP All Civilian Allegation Count by Category and Name](https://observablehq.com/@blainerothrock/zoomable-circle-packing)
+- supporting queries `src/queries/d3_packed_all.sql` & `src/queries/d3_packed_first.sql`
+- python transformation script `src/data/tojson.py`
+- data files `src/data/allegation_cat_name.csv` & `src/data/allegation_cat_first_name.csv`
+
 # Questions 1 - 3
 For questions 1 - 3 please see the following Tableau Workbooks
 - `src/tableau/Question1.twbx`
