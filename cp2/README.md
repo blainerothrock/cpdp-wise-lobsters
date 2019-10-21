@@ -6,14 +6,17 @@
 - supporting queries `src/queries/d3_packed_all.sql` & `src/queries/d3_packed_first.sql`
 - python transformation script `src/data/tojson.py`
 - data files `src/data/allegation_cat_name.csv` & `src/data/allegation_cat_first_name.csv`
-- `src/tableau/Question1.twbx` the first pass of this questoin in Tableau
+- `src/tableau/Question1.twbx` -> the first pass of this questoin in Tableau
 
 # Questions 2
-For questions 1 - 3 please see the following Tableau Workbooks
+Tableau Workbook & Image
 - `src/tableau/Question2.twbx`
+- `src/tableau/question2.png`
 
-# Question 3
-- TODO: //
+# Questions 3
+Tableau Workbook & Image
+- `src/tableau/Question3.twbx`
+- `src/tableau/question3.png`
 
 # Question 4 (d3 Interactive)
 - In Terminal, navigate to `src/`

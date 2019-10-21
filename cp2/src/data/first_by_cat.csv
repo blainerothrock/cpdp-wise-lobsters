@@ -1,194 +1,122 @@
 category,year,first,count
 Bribery / Official Corruption,2004,1,1
-Bribery / Official Corruption,2007,3,3
-Bribery / Official Corruption,2008,2,2
-Bribery / Official Corruption,2009,1,1
-Bribery / Official Corruption,2014,2,2
-Bribery / Official Corruption,2015,1,1
-Conduct Unbecoming (Off-Duty),2000,4,4
-Conduct Unbecoming (Off-Duty),2001,10,10
-Conduct Unbecoming (Off-Duty),2002,5,5
-Conduct Unbecoming (Off-Duty),2003,8,8
+Bribery / Official Corruption,2008,1,1
+Conduct Unbecoming (Off-Duty),2001,9,9
+Conduct Unbecoming (Off-Duty),2002,3,3
+Conduct Unbecoming (Off-Duty),2003,3,3
 Conduct Unbecoming (Off-Duty),2004,1,1
-Conduct Unbecoming (Off-Duty),2005,4,4
-Conduct Unbecoming (Off-Duty),2006,4,4
-Conduct Unbecoming (Off-Duty),2007,6,6
-Conduct Unbecoming (Off-Duty),2008,3,3
+Conduct Unbecoming (Off-Duty),2005,1,1
+Conduct Unbecoming (Off-Duty),2006,3,3
+Conduct Unbecoming (Off-Duty),2007,2,2
 Conduct Unbecoming (Off-Duty),2009,1,1
-Conduct Unbecoming (Off-Duty),2010,1,1
-Conduct Unbecoming (Off-Duty),2011,1,1
-Conduct Unbecoming (Off-Duty),2013,3,3
-Conduct Unbecoming (Off-Duty),2014,5,5
-Conduct Unbecoming (Off-Duty),2015,3,3
-Criminal Misconduct,2000,11,11
-Criminal Misconduct,2001,2,2
-Criminal Misconduct,2003,1,1
+Criminal Misconduct,2000,5,5
+Criminal Misconduct,2001,1,1
 Criminal Misconduct,2004,2,2
 Criminal Misconduct,2005,1,1
-Criminal Misconduct,2006,2,2
+Criminal Misconduct,2006,1,1
 Criminal Misconduct,2007,1,1
-Criminal Misconduct,2008,2,2
-Criminal Misconduct,2009,3,3
-Criminal Misconduct,2011,1,1
-Criminal Misconduct,2016,1,1
-Domestic,2000,5,5
-Domestic,2001,19,19
-Domestic,2002,25,25
-Domestic,2003,10,10
-Domestic,2004,12,12
-Domestic,2005,18,18
-Domestic,2006,15,15
-Domestic,2007,3,3
-Domestic,2008,6,6
-Domestic,2009,5,5
-Domestic,2010,2,2
-Domestic,2011,10,10
-Domestic,2012,4,4
-Domestic,2013,6,6
-Domestic,2014,12,12
-Domestic,2015,2,2
-Domestic,2016,2,2
+Criminal Misconduct,2008,1,1
+Domestic,2000,3,3
+Domestic,2001,14,14
+Domestic,2002,10,10
+Domestic,2003,4,4
+Domestic,2004,6,6
+Domestic,2005,10,10
+Domestic,2006,5,5
+Domestic,2007,1,1
+Domestic,2008,1,1
+Domestic,2009,2,2
+Domestic,2010,1,1
+Domestic,2013,1,1
+Domestic,2014,2,2
 Drug / Alcohol Abuse,2002,1,1
-Drug / Alcohol Abuse,2003,1,1
 Drug / Alcohol Abuse,2007,1,1
-Drug / Alcohol Abuse,2015,1,1
-Drug / Alcohol Abuse,2016,1,1
-Excessive Force,2016,1,1
 False Arrest,2000,1,1
 False Arrest,2001,1,1
-False Arrest,2002,10,10
-False Arrest,2003,8,8
-False Arrest,2004,11,11
-False Arrest,2005,18,18
-False Arrest,2006,32,32
-False Arrest,2007,46,46
-False Arrest,2008,22,22
-False Arrest,2009,15,15
-False Arrest,2010,7,7
-False Arrest,2011,15,15
-False Arrest,2012,6,6
-False Arrest,2013,16,16
-False Arrest,2014,39,39
-False Arrest,2015,22,22
-False Arrest,2016,7,7
-False Arrest,2017,20,20
-First Amendment,2006,1,1
-Illegal Search,2000,9,9
-Illegal Search,2001,34,34
-Illegal Search,2002,51,51
-Illegal Search,2003,64,64
-Illegal Search,2004,69,69
-Illegal Search,2005,46,46
-Illegal Search,2006,67,67
-Illegal Search,2007,96,96
-Illegal Search,2008,71,71
-Illegal Search,2009,35,35
-Illegal Search,2010,18,18
-Illegal Search,2011,20,20
-Illegal Search,2012,18,18
-Illegal Search,2013,32,32
-Illegal Search,2014,60,60
-Illegal Search,2015,39,39
-Illegal Search,2016,3,3
-Illegal Search,2017,9,9
-Lockup Procedures,2000,15,15
-Lockup Procedures,2001,23,23
-Lockup Procedures,2002,16,16
-Lockup Procedures,2003,16,16
-Lockup Procedures,2004,23,23
-Lockup Procedures,2005,11,11
-Lockup Procedures,2006,22,22
-Lockup Procedures,2007,37,37
-Lockup Procedures,2008,27,27
-Lockup Procedures,2009,14,14
-Lockup Procedures,2010,8,8
-Lockup Procedures,2011,10,10
-Lockup Procedures,2012,11,11
-Lockup Procedures,2013,15,15
-Lockup Procedures,2014,17,17
-Lockup Procedures,2015,27,27
-Lockup Procedures,2016,4,4
-Operation/Personnel Violations,2000,87,87
-Operation/Personnel Violations,2001,119,119
-Operation/Personnel Violations,2002,204,204
-Operation/Personnel Violations,2003,188,188
-Operation/Personnel Violations,2004,159,159
-Operation/Personnel Violations,2005,93,93
-Operation/Personnel Violations,2006,162,162
-Operation/Personnel Violations,2007,249,249
-Operation/Personnel Violations,2008,217,217
-Operation/Personnel Violations,2009,95,95
-Operation/Personnel Violations,2010,73,73
-Operation/Personnel Violations,2011,72,72
-Operation/Personnel Violations,2012,48,48
-Operation/Personnel Violations,2013,53,53
-Operation/Personnel Violations,2014,103,103
-Operation/Personnel Violations,2015,89,89
-Operation/Personnel Violations,2016,38,38
-Operation/Personnel Violations,2017,3,3
-Racial Profiling,2006,1,1
+False Arrest,2002,6,6
+False Arrest,2003,2,2
+False Arrest,2004,5,5
+False Arrest,2005,10,10
+False Arrest,2006,9,9
+False Arrest,2007,10,10
+False Arrest,2008,7,7
+False Arrest,2009,4,4
+False Arrest,2010,2,2
+False Arrest,2011,1,1
+Illegal Search,2000,5,5
+Illegal Search,2001,19,19
+Illegal Search,2002,28,28
+Illegal Search,2003,33,33
+Illegal Search,2004,44,44
+Illegal Search,2005,26,26
+Illegal Search,2006,30,30
+Illegal Search,2007,29,29
+Illegal Search,2008,23,23
+Illegal Search,2009,2,2
+Illegal Search,2010,2,2
+Illegal Search,2011,1,1
+Illegal Search,2012,2,2
+Illegal Search,2014,1,1
+Lockup Procedures,2000,8,8
+Lockup Procedures,2001,17,17
+Lockup Procedures,2002,10,10
+Lockup Procedures,2003,6,6
+Lockup Procedures,2004,13,13
+Lockup Procedures,2005,7,7
+Lockup Procedures,2006,4,4
+Lockup Procedures,2007,10,10
+Lockup Procedures,2008,5,5
+Lockup Procedures,2009,3,3
+Lockup Procedures,2011,1,1
+Operation/Personnel Violations,2000,51,51
+Operation/Personnel Violations,2001,51,51
+Operation/Personnel Violations,2002,95,95
+Operation/Personnel Violations,2003,85,85
+Operation/Personnel Violations,2004,62,62
+Operation/Personnel Violations,2005,41,41
+Operation/Personnel Violations,2006,67,67
+Operation/Personnel Violations,2007,73,73
+Operation/Personnel Violations,2008,54,54
+Operation/Personnel Violations,2009,22,22
+Operation/Personnel Violations,2010,13,13
+Operation/Personnel Violations,2012,1,1
+Operation/Personnel Violations,2013,1,1
+Operation/Personnel Violations,2014,1,1
 Supervisory Responsibilities,2000,2,2
 Supervisory Responsibilities,2001,7,7
-Supervisory Responsibilities,2002,3,3
-Supervisory Responsibilities,2003,7,7
-Supervisory Responsibilities,2004,6,6
-Supervisory Responsibilities,2005,4,4
-Supervisory Responsibilities,2006,2,2
-Supervisory Responsibilities,2007,1,1
-Supervisory Responsibilities,2010,1,1
-Supervisory Responsibilities,2014,1,1
-Supervisory Responsibilities,2015,1,1
-Supervisory Responsibilities,2016,2,2
-Traffic,2000,10,10
-Traffic,2001,26,26
-Traffic,2002,27,27
-Traffic,2003,12,12
-Traffic,2004,8,8
-Traffic,2005,3,3
-Traffic,2006,14,14
-Traffic,2007,21,21
-Traffic,2008,16,16
-Traffic,2009,4,4
-Traffic,2010,2,2
-Traffic,2011,4,4
-Traffic,2012,1,1
-Traffic,2013,3,3
-Traffic,2014,12,12
-Traffic,2015,8,8
-Traffic,2016,3,3
-Use Of Force,2000,18,18
-Use Of Force,2001,42,42
-Use Of Force,2002,83,83
-Use Of Force,2003,69,69
-Use Of Force,2004,51,51
-Use Of Force,2005,79,79
-Use Of Force,2006,108,108
-Use Of Force,2007,125,125
-Use Of Force,2008,67,67
-Use Of Force,2009,50,50
-Use Of Force,2010,31,31
-Use Of Force,2011,33,33
-Use Of Force,2012,16,16
-Use Of Force,2013,38,38
-Use Of Force,2014,33,33
-Use Of Force,2015,29,29
-Use Of Force,2016,9,9
-Use Of Force,2017,28,28
-Use Of Force,2018,1,1
-Verbal Abuse,2000,8,8
-Verbal Abuse,2001,28,28
-Verbal Abuse,2002,22,22
-Verbal Abuse,2003,29,29
-Verbal Abuse,2004,17,17
-Verbal Abuse,2005,4,4
-Verbal Abuse,2006,4,4
-Verbal Abuse,2007,16,16
-Verbal Abuse,2008,6,6
-Verbal Abuse,2009,2,2
-Verbal Abuse,2010,3,3
-Verbal Abuse,2011,1,1
-Verbal Abuse,2013,5,5
-Verbal Abuse,2014,7,7
-Verbal Abuse,2015,5,5
-Verbal Abuse,2016,2,2
-Verbal Abuse,2017,1,1
+Supervisory Responsibilities,2002,2,2
+Supervisory Responsibilities,2003,3,3
+Supervisory Responsibilities,2004,5,5
+Supervisory Responsibilities,2005,2,2
+Supervisory Responsibilities,2006,1,1
+Traffic,2000,4,4
+Traffic,2001,12,12
+Traffic,2002,13,13
+Traffic,2003,9,9
+Traffic,2004,5,5
+Traffic,2005,1,1
+Traffic,2006,10,10
+Traffic,2007,8,8
+Traffic,2008,4,4
+Use Of Force,2000,15,15
+Use Of Force,2001,27,27
+Use Of Force,2002,41,41
+Use Of Force,2003,37,37
+Use Of Force,2004,33,33
+Use Of Force,2005,43,43
+Use Of Force,2006,44,44
+Use Of Force,2007,51,51
+Use Of Force,2008,14,14
+Use Of Force,2009,8,8
+Use Of Force,2010,9,9
+Use Of Force,2011,6,6
+Use Of Force,2012,1,1
+Use Of Force,2013,1,1
+Verbal Abuse,2000,4,4
+Verbal Abuse,2001,15,15
+Verbal Abuse,2002,15,15
+Verbal Abuse,2003,12,12
+Verbal Abuse,2004,9,9
+Verbal Abuse,2005,2,2
+Verbal Abuse,2007,5,5
+Verbal Abuse,2008,1,1
