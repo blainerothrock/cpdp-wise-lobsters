@@ -1,0 +1,189 @@
+category,year,count
+Bribery / Official Corruption,2002,1
+Bribery / Official Corruption,2003,1
+Bribery / Official Corruption,2007,1
+Bribery / Official Corruption,2011,1
+Bribery / Official Corruption,2014,1
+Conduct Unbecoming (Off-Duty),2000,58
+Conduct Unbecoming (Off-Duty),2001,20
+Conduct Unbecoming (Off-Duty),2002,19
+Conduct Unbecoming (Off-Duty),2003,18
+Conduct Unbecoming (Off-Duty),2004,13
+Conduct Unbecoming (Off-Duty),2005,12
+Conduct Unbecoming (Off-Duty),2006,11
+Conduct Unbecoming (Off-Duty),2007,15
+Conduct Unbecoming (Off-Duty),2008,7
+Conduct Unbecoming (Off-Duty),2009,7
+Conduct Unbecoming (Off-Duty),2010,5
+Conduct Unbecoming (Off-Duty),2011,10
+Conduct Unbecoming (Off-Duty),2012,4
+Conduct Unbecoming (Off-Duty),2013,2
+Conduct Unbecoming (Off-Duty),2014,5
+Conduct Unbecoming (Off-Duty),2015,3
+Criminal Misconduct,2000,25
+Criminal Misconduct,2001,10
+Criminal Misconduct,2002,9
+Criminal Misconduct,2003,4
+Criminal Misconduct,2004,7
+Criminal Misconduct,2005,5
+Criminal Misconduct,2006,4
+Criminal Misconduct,2007,3
+Criminal Misconduct,2008,4
+Criminal Misconduct,2009,4
+Criminal Misconduct,2011,3
+Criminal Misconduct,2012,1
+Criminal Misconduct,2013,4
+Criminal Misconduct,2014,2
+Domestic,2000,42
+Domestic,2001,34
+Domestic,2002,19
+Domestic,2003,19
+Domestic,2004,16
+Domestic,2005,8
+Domestic,2006,11
+Domestic,2007,19
+Domestic,2008,17
+Domestic,2009,15
+Domestic,2010,6
+Domestic,2011,12
+Domestic,2012,8
+Domestic,2013,8
+Domestic,2014,4
+Domestic,2015,7
+Domestic,2016,3
+Drug / Alcohol Abuse,2000,22
+Drug / Alcohol Abuse,2001,4
+Drug / Alcohol Abuse,2002,4
+Drug / Alcohol Abuse,2003,2
+Drug / Alcohol Abuse,2004,3
+Drug / Alcohol Abuse,2005,4
+Drug / Alcohol Abuse,2006,3
+Drug / Alcohol Abuse,2007,3
+Drug / Alcohol Abuse,2008,2
+Drug / Alcohol Abuse,2009,3
+Drug / Alcohol Abuse,2010,1
+Drug / Alcohol Abuse,2012,2
+Drug / Alcohol Abuse,2013,1
+Drug / Alcohol Abuse,2014,1
+Excessive Force,2013,2
+Excessive Force,2015,1
+Excessive Force,2016,4
+Excessive Force,2017,1
+False Arrest,2002,1
+False Arrest,2005,3
+False Arrest,2007,3
+False Arrest,2011,6
+False Arrest,2014,3
+False Arrest,2017,2
+Illegal Search,2000,6
+Illegal Search,2001,4
+Illegal Search,2002,1
+Illegal Search,2003,4
+Illegal Search,2004,9
+Illegal Search,2005,6
+Illegal Search,2006,11
+Illegal Search,2007,9
+Illegal Search,2008,1
+Illegal Search,2009,8
+Illegal Search,2011,4
+Illegal Search,2013,3
+Illegal Search,2014,1
+Illegal Search,2015,1
+Illegal Search,2017,4
+Lockup Procedures,2000,58
+Lockup Procedures,2001,16
+Lockup Procedures,2002,6
+Lockup Procedures,2003,2
+Lockup Procedures,2004,11
+Lockup Procedures,2005,3
+Lockup Procedures,2006,6
+Lockup Procedures,2007,10
+Lockup Procedures,2008,2
+Lockup Procedures,2009,2
+Lockup Procedures,2010,4
+Lockup Procedures,2011,4
+Lockup Procedures,2012,5
+Lockup Procedures,2013,4
+Lockup Procedures,2014,3
+Lockup Procedures,2015,5
+Operation/Personnel Violations,2000,408
+Operation/Personnel Violations,2001,111
+Operation/Personnel Violations,2002,90
+Operation/Personnel Violations,2003,113
+Operation/Personnel Violations,2004,81
+Operation/Personnel Violations,2005,42
+Operation/Personnel Violations,2006,54
+Operation/Personnel Violations,2007,42
+Operation/Personnel Violations,2008,62
+Operation/Personnel Violations,2009,53
+Operation/Personnel Violations,2010,35
+Operation/Personnel Violations,2011,41
+Operation/Personnel Violations,2012,24
+Operation/Personnel Violations,2013,32
+Operation/Personnel Violations,2014,29
+Operation/Personnel Violations,2015,18
+Operation/Personnel Violations,2017,7
+Supervisory Responsibilities,2000,29
+Supervisory Responsibilities,2001,2
+Supervisory Responsibilities,2002,1
+Supervisory Responsibilities,2003,4
+Supervisory Responsibilities,2004,4
+Supervisory Responsibilities,2005,4
+Supervisory Responsibilities,2006,3
+Supervisory Responsibilities,2007,3
+Supervisory Responsibilities,2008,3
+Supervisory Responsibilities,2009,7
+Supervisory Responsibilities,2010,4
+Supervisory Responsibilities,2011,2
+Supervisory Responsibilities,2012,2
+Supervisory Responsibilities,2013,1
+Traffic,2000,37
+Traffic,2001,18
+Traffic,2002,7
+Traffic,2003,2
+Traffic,2006,8
+Traffic,2007,10
+Traffic,2008,5
+Traffic,2009,7
+Traffic,2010,4
+Traffic,2011,6
+Traffic,2012,3
+Traffic,2013,1
+Traffic,2014,1
+Traffic,2015,4
+Use Of Force,2000,79
+Use Of Force,2001,57
+Use Of Force,2002,52
+Use Of Force,2003,19
+Use Of Force,2004,15
+Use Of Force,2005,35
+Use Of Force,2006,24
+Use Of Force,2007,23
+Use Of Force,2008,22
+Use Of Force,2009,47
+Use Of Force,2010,26
+Use Of Force,2011,21
+Use Of Force,2012,25
+Use Of Force,2013,20
+Use Of Force,2014,22
+Use Of Force,2015,17
+Use Of Force,2016,3
+Use Of Force,2017,21
+Verbal Abuse,2000,6
+Verbal Abuse,2001,11
+Verbal Abuse,2002,9
+Verbal Abuse,2003,5
+Verbal Abuse,2004,2
+Verbal Abuse,2005,4
+Verbal Abuse,2006,2
+Verbal Abuse,2007,3
+Verbal Abuse,2008,1
+Verbal Abuse,2009,2
+Verbal Abuse,2010,5
+Verbal Abuse,2011,2
+Verbal Abuse,2012,2
+Verbal Abuse,2013,2
+Verbal Abuse,2014,4
+Verbal Abuse,2015,4
+Verbal Abuse,2016,1
+Verbal Abuse,2017,2

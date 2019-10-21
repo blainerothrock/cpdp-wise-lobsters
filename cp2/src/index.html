@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- TODO: year slider, allegations names -->
+ <html>
+   <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="./main.css", rel="stylesheet">
+        <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   </head>
+   <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button id="playButton" class="play-button mdc-button" onclick="play();" type="button">Play</button>
+                    <div id="config"></div>
+                </div>
+                <div class="col">
+                    <div id="scatter"></div>
+                    <input type="range" min="2001" max="2016" value="2001" class="slider" id="yearRange">
+                    <div id="year">2001</div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+            all_allegations_by_cat = []
+            all_sustained_by_cat = []
+            first_allegation_by_cat = []
+            selected_categories = []
+
+            colorMap = {
+                "Bribery / Official Corruption": "#003f5c",
+                "Criminal Misconduct": "#58508d",
+                "Drug / Alcohol Abuse": "#bc5090",
+                "Excessive Force": "#ff6361",
+                "False Arrest": "#5eb7b7",
+                "First Amendment": "#fc7978",
+                "Supervisory Responsibilities": "#ffafb0",
+                "Traffic": "#dfddc7",
+                "Unknown": "#f58b54",
+                "Use Of Force": "#a34a28",
+                "Verbal Abuse": "#211717",
+                "Conduct Unbecoming (Off-Duty)": "#42b883",
+                "Lockup Procedures": "#35495e",
+                "Operation/Personnel Violations": "#347474",
+                "Racial Profiling": "#5f6769",
+                "Illegal Search": "#ff0000",
+                "Domestic": "#00818a"
+            }
+
+            Promise.all([
+                d3.csv('data/all_by_cat.csv'),
+                d3.csv('data/all_sustained_by_cat.csv'),
+                d3.csv('data/first_by_cat.csv')
+            ]).then((data) => {
+                all_allegations_by_cat = data[0]
+                all_sustained_by_cat = data[1]
+                first_allegation_by_cat = data[2]
+
+                all_allegations_by_cat.forEach(ele => {
+                    if (!selected_categories.includes(ele.category)) {
+                        selected_categories.push(ele.category)
+                    }
+                });
+                selected_categories.forEach(cat => {
+                    el = $('<div name="' + cat + ' style="display:inline;"><input type="checkbox" id="' + cat + '" name="' + cat + '"checked><label for="' + cat + '">' + cat + '</label><svg width="20" height="20"><rect width="20" height="20" style="fill:' + colorMap[cat] + ';stroke-width:3;stroke:rgb(0,0,0);" /></svg><div>')
+                    $( '#config' )
+                    .append(el)
+                    el.children('input').change(categoryChanged);
+                    
+                })
+
+                $('#yearRange').on('input', sliderChanged)
+
+                renderVis(dataForCategories(), 2001)
+            })
+
+            categoryChanged = (e) => {
+                // filter by selected categories and re-render
+                if (e.target.checked) {
+                    selected_categories.push(e.target.name)
+                } else {
+                    i = selected_categories.indexOf(e.target.name)
+                    selected_categories.splice(i, 1);
+                }
+                console.log('selected_categories: ', selected_categories)
+                renderVis(dataForCategories(), 2001)
+            }
+
+            sliderChanged = (e) => {
+                console.log('sliderChanged: ', e.target.value)
+                $('#year').html(e.target.value)
+                renderVis(dataForCategories(), e.target.value)
+            }
+
+            dataForCategories = () => {
+                all = all_allegations_by_cat
+                    .filter((a) => selected_categories.includes(a.category))
+                sustained = all_sustained_by_cat
+                    .filter((a) => selected_categories.includes(a.category))
+                first = first_allegation_by_cat
+                    .filter((a) => selected_categories.includes(a.category))
+                return {
+                    'all_allegations': all,
+                    'all_sustained': sustained,
+                    'first_allegations': first
+                }
+            }
+            
+            interpolateData = (data, year) => {
+                
+                floor = Math.floor(year)
+                ceiling = Math.ceil(year)
+                $('#yearRange').val(floor)
+                $('#year').text('' + floor)
+                floors = data.all_allegations.filter((a) => parseInt(a.year) == floor).map((all) => {
+                    const first = data.first_allegations.filter((a) => a.year == all.year && a.category == all.category)
+                    var first_count = 0
+                    if ( first != undefined && first.length == 1 ) { first_count = parseInt(first[0].count) }
+                    
+                    const sustained = data.all_sustained.filter((a) => a.year == all.year && a.category == all.category)
+                    var sustained_percentage = 0
+                    if ( sustained != undefined && sustained.length == 1 ) { 
+                    sustained_percentage = parseInt(sustained[0].count) / parseInt(all.count) 
+                    }
+
+                    return {
+                        "category": all.category,
+                        "year": all.year,
+                        "all_count": parseInt(all.count),
+                        "first_count": first_count,
+                        "sustained_percent": sustained_percentage
+                    }
+                })
+
+                ceils = data.all_allegations.filter((a) => parseInt(a.year) == ceiling).map((all) => {
+                    const first = data.first_allegations.filter((a) => a.year == all.year && a.category == all.category)
+                    var first_count = 0
+                    if ( first != undefined && first.length == 1 ) { first_count = parseInt(first[0].count) }
+                    
+                    const sustained = data.all_sustained.filter((a) => a.year == all.year && a.category == all.category)
+                    var sustained_percentage = 0
+                    if ( sustained != undefined && sustained.length == 1 ) { 
+                    sustained_percentage = parseInt(sustained[0].count) / parseInt(all.count) 
+                    }
+
+                    return {
+                        "category": all.category,
+                        "year": all.year,
+                        "all_count": parseInt(all.count),
+                        "first_count": first_count,
+                        "sustained_percent": sustained_percentage
+                    }
+                })
+
+                console.log('floor: ', floors);
+                console.log('ceils: ', ceils);
+
+                return floors.map((f, i) => {
+                    cs = ceils.filter((a) => a.category == f.category)
+                    console.log('cs: ', cs)
+                    if (cs.length == 0) {
+                        return f
+                    }
+                    c = cs[0]
+
+                    console.log('diff count: ', c.all_count - f.all_count)
+                    console.log('multiplier: ', ceiling - year) 
+
+                    return {
+                        "category": f.category,
+                        "year": floor,
+                        "all_count": f.all_count + ((c.all_count - f.all_count) * (1 - (ceiling - year))),
+                        "first_count": f.first_count + ((c.first_count - f.first_count) * (1 - (ceiling - year))),
+                        "sustained_percent": f.sustained_percent + ((c.sustained_percent - f.sustained_percent) * (1 - (ceiling - year)))
+                    }
+                })
+            }
+
+            var x;
+            var y;
+            var r;
+            const position = (cir) => {
+                cir
+                .attr("r", (d) => {
+                    return r(d.sustained_percent)
+                })
+                .attr("cx", (d) => x(d.first_count))
+                .attr("cy", (d) => y(d.all_count))
+            }
+            
+            renderVis = (data, year) => {
+                $('#scatter').empty();
+                const height = 750
+                const width = 700
+                const margin = ({top: 20, right: 30, bottom: 30, left: 40})
+                const max_first_allegation_count = d3.max(data.first_allegations, (d) => parseInt(d.count) + 25);
+                const max_all_allegation_count = d3.max(data.all_allegations, (d) => parseInt(d.count) + 50);
+                const max_sustained_percent = 1.0 
+
+                r = d3.scaleLinear()
+                    .domain([0, max_sustained_percent])
+                    .range([5, 50])
+                x = d3.scaleLinear()
+                    .domain([0, max_first_allegation_count])
+                    .range([margin.left, width - margin.right])
+                y = d3.scaleLinear()
+                    .domain([0, max_all_allegation_count])
+                    .range([height - margin.bottom, margin.top])
+
+                const xAxis = g => g
+                    .attr("transform", `translate(0,${height - margin.bottom})`)
+                    .call(d3.axisBottom(x))
+                    .call(g => g.select(".domain").remove())
+                    .call(g => g.append("text")
+                        .attr("x", width - margin.right)
+                        .attr("y", -4)
+                        .attr("fill", "#000")
+                        .attr("font-weight", "bold")
+                        .attr("text-anchor", "end")
+                        .text('First Time Allegation Count'))
+                const yAxis = g => g
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(d3.axisLeft(y))
+                    .call(g => g.select(".domain").remove())
+                    .call(g => g.select(".tick:last-of-type text").clone()
+                        .attr("x", 4)
+                        .attr("text-anchor", "start")
+                        .attr("font-weight", "bold")
+                        .text('Total Allegation Count'))
+
+                const svg = d3.select('#scatter')
+                    .append('svg')
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                
+                svg.append("g")
+                    .call(xAxis);
+       
+                svg.append("g")
+                    .call(yAxis);
+
+                const circles = svg.append("g")
+                    .attr("class", "circles");
+
+                const circle = circles.selectAll(".circle")
+                    .data(interpolateData(data, year))
+                    .enter().append("circle")
+                        .attr("class", "circle")
+                        .attr("stroke", (d) => { return '#000' })
+                        .attr("stroke-width", 1.0)
+                        .attr("fill", (d) => { return colorMap[d.category] })
+                        .attr("id", (d) => { return d.category })
+                        .call(position)
+
+                d3.select('#playButton')
+                .on('click', (d,i) => {
+                    console.log('play clicked')
+                    play();
+                });
+                // play()
+            }
+
+            play = () => {
+                console.log('play')
+                d3.select('#scatter')
+                .transition()
+                .duration(10000)
+                .ease(d3.easeLinear)
+                .tween("year", () => {
+                    startYear = $('#yearRange').val()
+                    var year = d3.interpolateNumber(startYear, 2016);
+                    return function(t) {
+                        d3.selectAll(".circle")
+                        .data(interpolateData(dataForCategories(), year(t)), (d) => d.category).call(position);
+                    };
+                })
+            }
+        })
+        </script>
+   </body>
+ </html>
