@@ -1,0 +1,14 @@
+{
+  "name": "@blainerothrock/untitled",
+  "main": "d/017f88d44d896e8e.js",
+  "version": "272.0.0",
+  "homepage": "https://observablehq.com/@blainerothrock/untitled",
+  "author": {
+    "name": "Blaine Rothrock",
+    "url": "https://observablehq.com/@blainerothrock"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
