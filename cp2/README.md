@@ -9,12 +9,19 @@
 - `src/tableau/Question1.twbx` -> the first pass of this questoin in Tableau
 
 # Questions 2
-Tableau Workbook & Image
+Views needed for Tableau workbook:
+- `src/queries/02_officer_first_allegation.sql`
+- `src/queries/02_officer_subset.sql`
+
+Tableau Workbook & Images:
 - `src/tableau/Question2.twbx`
 - `src/tableau/question2.png`
 
 # Questions 3
-Tableau Workbook & Image
+Views needed for Tableau workbook:
+- same as Question 2
+
+Tableau Workbook & Images:
 - `src/tableau/Question3.twbx`
 - `src/tableau/question3.png`
 
