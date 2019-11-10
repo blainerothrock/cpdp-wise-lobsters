@@ -3,9 +3,9 @@
 ## Submission
 * [Trifacta Flow](https://northwestern.amer.trifacta.net/flows/37)
     - We used one flow to simplify navigating Trifacta.
-* [data_arrest.csv](
-s3://northwestern.amer.trifacta.net/trifacta/queryResults/blainerothrock2020@u.northwestern.edu/data_officerarrest_2.csv)
-* [data_officerarrest.csv](s3://northwestern.amer.trifacta.net/trifacta/queryResults/blainerothrock2020@u.northwestern.edu/clean_1.csv)
+* [data_arrest.csv](s3://northwestern.amer.trifacta.net/trifacta/queryResults/blainerothrock2020@u.northwestern.edu/data_arrest.csv)
+* [data_officerarrest.csv](
+s3://northwestern.amer.trifacta.net/trifacta/queryResults/blainerothrock2020@u.northwestern.edu/data_officerarrest.csv)
 
 
 ## How we Did it

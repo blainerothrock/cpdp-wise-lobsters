@@ -40,4 +40,4 @@ CREATE TABLE data_officerarrest (
     cb_number integer,
     appointed_date date,
     arrest_date date,
-    arrest_id integer REFERENCES data_arrest(id) );
+    arrest_id integer REFERENCES data_arrest(id));
