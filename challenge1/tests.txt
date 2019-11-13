@@ -1,0 +1,54 @@
+Handling team The Wise Lobsters
+Downloading student arrests.... trifacta/queryResults/blainerothrock2020@u.northwestern.edu/data_arrest.csv
+Downloading student officers.... trifacta/queryResults/blainerothrock2020@u.northwestern.edu/data_officerarrest.csv
+
+TEST PASSED: Arrests Count, expected value:2579837, actual value:2579837
+    True/True status awarded
+SINGLE TEST SET PASSED: 1.000000 points awarded
+
+TEST FAILED: Officer-Arrests Count, expected value:5235842, actual value:4829747 // 509...
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST FAILED: Officer Arrests Join Check, expected value:4668844, actual value:4604193
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST FAILED: Arrests Dtype Check Int and Null values, expected value:Dtype test:+int64 Null Test: True, actual value:Dtype test: False, Null Test: False
+    False/True points awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST PASSED: Officers Arrests Dtype Check Int and Null values, expected value:Dtype test:+int64 Null Test: True, actual value:Dtype test: True, Null Test: True
+    True/True points awarded
+SINGLE TEST SET PASSED: 1.000000 points awarded
+
+TEST PASSED: Unique Arrest Set IDs, expected value:2579837, actual value:2579837
+    True/True status awarded
+SINGLE TEST SET PASSED: 1.000000 points awarded
+
+TEST FAILED: Unique Officer Arrest Set IDs, expected value:4829747, actual value:4739889
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST PASSED: Arrest Year Check, expected value:True, actual value:True
+    True/True status awarded
+SINGLE TEST SET PASSED: 1.000000 points awarded
+TEST FAILED: Officer Arrest Year Check, expected value:True, actual value:False
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST FAILED: Arrest Dates Check, expected value:True, actual value:False
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+TEST FAILED: Officer Arrest Dates Check, expected value:True, actual value:False
+    False/True status awarded
+SINGLE TEST SET FAILED: 0.000000 points awarded
+
+Checking officer names, this may take some time........
+TEST Names/ID Match: 9.131026/10.0 points awarded
+
+Checking arrest IDs....
+4825211 5235842
+TEST Arrest ID/IDs Match: 2.764719/3 points awarded
+TOTAL SCORE = 15.895745/25.000000
