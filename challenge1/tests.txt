@@ -6,7 +6,7 @@ TEST PASSED: Arrests Count, expected value:2579837, actual value:2579837
     True/True status awarded
 SINGLE TEST SET PASSED: 1.000000 points awarded
 
-TEST FAILED: Officer-Arrests Count, expected value:5235842, actual value:4829747 // 509...
+TEST FAILED: Officer-Arrests Count, expected value:5235842, actual value:4829747 // 5.09MM
     False/True status awarded
 SINGLE TEST SET FAILED: 0.000000 points awarded
 
@@ -33,6 +33,7 @@ SINGLE TEST SET FAILED: 0.000000 points awarded
 TEST PASSED: Arrest Year Check, expected value:True, actual value:True
     True/True status awarded
 SINGLE TEST SET PASSED: 1.000000 points awarded
+
 TEST FAILED: Officer Arrest Year Check, expected value:True, actual value:False
     False/True status awarded
 SINGLE TEST SET FAILED: 0.000000 points awarded
