@@ -13,7 +13,7 @@ CREATE TEMP VIEW officer_subset AS
 CREATE VIEW officerarrest_years AS
     SELECT o.id as officer_id, officer_arrest.id as arrest_id, (officer_arrest.arrest_year - date_part('year', o.appointed_date)) as date_diff
     FROM data_officerarrest officer_arrest
-    INNER JOIN officer_subset o on officer_arrest.officer_id = o.id
+    INNER JOIN officer_subset o on officer_arrest.officer_id = o.id;
 
 CREATE VIEW officerallegation_years AS
     SELECT o.id as officer_id, o.appointed_date, allegation.incident_date, allegation.id as allegation_id, (date_part('year', allegation.incident_date) - date_part('year', o.appointed_date)) as date_diff
@@ -25,14 +25,15 @@ CREATE VIEW officerallegation_years AS
 SELECT date_diff, COUNT(arrest_id)
     FROM officerarrest_years
     WHERE date_diff >= 0
-    GROUP BY date_diff;
+    GROUP BY year_on_foce;
+
+select * from officerallegation_years;
 
 SELECT date_diff, COUNT(allegation_id)
     FROM officerallegation_years
     WHERE date_diff >= 0
     GROUP BY date_diff
     ORDER BY date_diff ASC;
-
 
 
 DROP VIEW officer_subset;
