@@ -1,0 +1,63 @@
+-- OFFICER SUBSET
+CREATE TEMP VIEW officer_subset AS
+    SELECT o.id, o.first_name, o.last_name, o.birth_year, o.appointed_date,
+          date_part('year', '2018-01-01'::DATE) - o.birth_year as estimated_age,
+          ('2018-01-01'::DATE - o.appointed_date) / 365 as years_on_force,
+          COUNT(a.id) as allegation_count
+    FROM data_officer o
+    LEFT JOIN data_officerallegation a on o.id = a.officer_id
+    WHERE active = 'Yes'
+        AND appointed_date BETWEEN '2000-01-01' AND '2007-12-31'
+    GROUP BY o.id
+    ORDER BY years_on_force DESC;
+
+
+-- CITY SETTLEMENTS
+CREATE TEMP VIEW officer_first_settlement_filed AS
+    SELECT o.id as officer_id, MIN(case_case.date_filed) as first_date
+        FROM officer_subset o
+    INNER JOIN cop_officer_map cop ON cop.officer_id = o.id
+    INNER JOIN cops_casecop case_cop ON case_cop.cop_id = cop.cop_id
+    INNER JOIN cases_case as case_case ON case_case.id = case_cop.case_id
+    GROUP BY o.id
+    ORDER BY first_date;
+
+CREATE TEMP VIEW officer_first_settlement_paid AS
+    SELECT o.id as officer_id, MIN(payment.date_paid) as first_date
+        FROM officer_subset o
+    INNER JOIN cop_officer_map cop ON cop.officer_id = o.id
+    INNER JOIN cops_casecop case_cop ON case_cop.cop_id = cop.cop_id
+    INNER JOIN cases_case as case_case ON case_case.id = case_cop.case_id
+    INNER JOIN cases_payment payment ON payment.case_id = case_case.id
+    GROUP BY o.id
+    ORDER BY first_date ASC;
+
+CREATE TEMP VIEW officer_date_diff AS
+SELECT officer_allegation.id as id, (date_part('year', allegation.incident_date) - date_part('year', first_filed.first_date)) as date_diff
+FROM data_officerallegation officer_allegation
+INNER JOIN data_allegation allegation on allegation.id = officer_allegation.allegation_id
+INNER JOIN officer_first_settlement_filed first_filed on first_filed.officer_id = officer_allegation.officer_id
+WHERE officer_allegation.officer_id IN (SELECT id FROM officer_subset);
+
+SELECT date_diff, COUNT(id)
+FROM officer_date_diff
+GROUP BY date_diff
+ORDER BY date_diff;
+
+SELECT * from officer_date_diff
+ORDER BY date_diff DESC
+-- ORDER BY date_diff DESC;
+
+-- CIVIL CASES
+CREATE TEMP VIEW officer_subsetcivilcase AS
+    SELECT o.id as officer_id, civil_case.id as civil_case_id
+        FROM officer_subset o
+    INNER JOIN data_officerallegation officerallegation ON officerallegation.officer_id = o.id
+    INNER JOIN case_map ON case_map.allegation_id = officerallegation.allegation_id
+    INNER JOIN cases_ipracase civil_case ON civil_case.id = case_map.case_id;
+
+
+DROP VIEW officer_first_settlement_paid;
+DROP VIEW officer_first_settlement_filed;
+DROP VIEW officer_date_diff;
+DROP VIEW officer_subset;
