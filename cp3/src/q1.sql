@@ -64,7 +64,7 @@ FROM (
     LEFT JOIN officer_subsetsettlementpayment as payment_map ON payment_map.officer_id = officer_subset.id
     LEFT JOIN cases_payment payment ON payment.id = payment_map.payment_id
     GROUP by officer_subset.id, officer_subset.years_on_force, officer_subset.allegation_count
-    HAVING COUNT(payment.id) > 0
+    HAVING COUNT(payment.id) > 0 AND AVG(allegation_count) > 0
     ORDER BY payment_total DESC
 ) as settlement_aggregate
 GROUP BY years_on_force;
