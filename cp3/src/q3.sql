@@ -35,6 +35,9 @@ SELECT date_diff, COUNT(allegation_id)
     GROUP BY date_diff
     ORDER BY date_diff ASC;
 
+select doa.first_name, doa.last_name, doa.officer_id, count(doa.arrest_id), os.years_on_force, count(arrest_id)/ os.years_on_force as avg_arrest_over_years from data_officerarrest doa
+ join officer_subset os on doa.officer_id = os.id
+group by doa.officer_id, doa.first_name, doa.last_name, os.years_on_force order by avg_arrest_over_years desc
 
 DROP VIEW officer_subset;
 DROP VIEW officerarrest_years;

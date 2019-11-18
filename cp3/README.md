@@ -18,6 +18,9 @@
     - `q2_plotting.ipynb`
         * Used to create the plot in findings, used the same queries found in `q2.sql`
 3. What is the average number of arrests per officer over years on the force and how many allegation occurred with an arrest?
-    - TODO:
+    - `q3.sql`
+        * Creates temp views for subset of officers and links `years_on_force` to a `data_officerallegations` and `data_officerarrests`
+    - `q3_plotting.ipynb`
+        * Used to create the plot in findings, used the same queries found in `q3.sql`
 4. Does a high number of allegations with an arrest early in an officer's career lead to a higher average of allegations?
     - TODO: 
