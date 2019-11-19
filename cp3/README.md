@@ -23,4 +23,5 @@
     - `q3_plotting.ipynb`
         * Used to create the plot in findings, used the same queries found in `q3.sql`
 4. Does a high number of allegations with an arrest early in an officer's career lead to a higher average of allegations?
-    - TODO: 
+    - `q4.sql`
+        * All the steps of creating views along with output is given in findings under question 4
