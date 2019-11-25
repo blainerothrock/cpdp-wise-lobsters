@@ -32,7 +32,7 @@ CREATE TEMP VIEW repeater_allegations AS
                JOIN data_allegation da on oa.allegation_id = da.id
                WHERE o.id = oa.officer_id
                LIMIT 1
-               OFFSET 15
+               OFFSET 10
             ) as repeater_start_date
     FROM data_officerallegation oa
     JOIN data_officer o ON o.id = oa.officer_id;
