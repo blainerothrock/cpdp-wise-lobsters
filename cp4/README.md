@@ -9,5 +9,5 @@ To run, simply import the databricks notebooks. Please note the computing the ed
     - code can be found in `src/q2_analysis.ipynb` & `src/q1.sql`
 2. Do allegations of a certain type/name tend to draw a path to a certain award?
     - [databricks published notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6912744444517995/1575454452639307/718492600659211/latest.html)
-    - code can be found in `src/q2_analysis.ipynb` (exported databricks notebook) & `src/q2.sql`
+    - code can be found in `src/q2_analysis.ipynb` (exported databricks notebook) & `src/q3.sql`
 

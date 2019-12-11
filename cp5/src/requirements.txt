@@ -1,0 +1,14 @@
+numpy
+pandas
+
+# Gensim
+gensim
+
+# spacy for lemmatization
+spacy
+
+# Plotting tools
+pyLDAvis
+matplotlib
+
+nltk

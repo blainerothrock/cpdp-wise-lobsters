@@ -13,10 +13,10 @@
     - `q1_plotting.ipynb`
         * Used to create the plot in findings, used the same queries found in `q1.sql`
 2. After a settlement, does the average number of allegations decrease?
-    - `q2.sql`
+    - `q3.sql`
         * Creates temp views (some are the same as q1), including a view that identifies the first settlement for an officer in our subset. Final query is an aggregation.
     - `q2_plotting.ipynb`
-        * Used to create the plot in findings, used the same queries found in `q2.sql`
+        * Used to create the plot in findings, used the same queries found in `q3.sql`
 3. What is the average number of arrests per officer over years on the force and how many allegation occurred with an arrest?
     - `q3.sql`
         * Creates temp views for subset of officers and links `years_on_force` to a `data_officerallegations` and `data_officerarrests`

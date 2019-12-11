@@ -52,7 +52,7 @@ GROUP BY first_name, last_name, appointed_date, arrest_year
 ORDER BY arrest_data_count desc;
 
 
-COPY new_data_officerarrest(id, arrest_id)  TO '/Users/blaine/dev/ds/cpdp-wise-lobsters/challenge2/data/submission.csv' DELIMITER ',' CSV HEADER
+COPY new_data_officerarrest(id, arrest_id)  TO '/Users/blaine/dev/ds/cpdp-wise-lobsters/challenge2/data/new_submission.csv' DELIMITER ',' CSV HEADER
 
 -- update gc_entretien.trace as tr
 --   set time_diff = nv.diff
