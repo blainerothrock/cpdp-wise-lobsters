@@ -24,9 +24,11 @@ here is a  [tutorial](https://towardsdatascience.com/getting-started-with-python
 * Question 3:
     - prereq: `src/lda_load.sql`
         - loads document tags and results of the LDA model (needed for question #4)
+        - update CSV absolute paths to your path
     - code: `src/LDA Model.ipynb`
         - contains workflow for running the LDA model (also used in question #4)
     - sql: `src/q3.sql`
+    - interactive graphic: `ida.html` (no server required)
 * Question 4:
     - prereq: same as #3
     - code: `src/q4 - plotting.ipynb`

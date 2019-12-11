@@ -26,7 +26,7 @@ create table data_document_tags
     searching_arresting_minors               varchar(255)
 );
 COPY data_document_tags(allegation_id, title, document_text, url, text_bad, incident_date, allegation_name, allegation_category, organization, nudity_penetration, sexual_harassment_remarks, sexual_humiliation_extortion_or_sex_work, tasers, trespass, racial_slurs, planting_drugs_guns, neglect_of_duty, refuse_medical_assistance, irrational_aggressive_unstable, searching_arresting_minors)
-FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/data/document_tags.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/document_tags.csv' DELIMITER ',' CSV HEADER;
 UPDATE data_document_tags SET incident_date = NULL WHERE incident_date = '';
 ALTER TABLE data_document_tags ALTER COLUMN incident_date TYPE DATE USING incident_date::date;
 
@@ -48,7 +48,7 @@ create table data_document_topics
 	term10 varchar
 );
 COPY data_document_topics(id, term1, term2, term3, term4, term5, term6, term7, term8, term9, term10)
-FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/data/document_topics.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/document_topics.csv' DELIMITER ',' CSV HEADER;
 
 drop table if exists data_document_topic_map;
 create table data_document_topic_map
@@ -65,4 +65,4 @@ create table data_document_topic_map
 	topic3_prob double precision
 );
 COPY data_document_topic_map(document_id, topic1_id, topic1_prob, topic2_id, topic2_prob, topic3_id, topic3_prob)
-FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/data/document_topics_map.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/blaine/dev/ds/cpdp-wise-lobsters/cp5/src/document_topics_map.csv' DELIMITER ',' CSV HEADER;
