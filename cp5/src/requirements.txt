@@ -12,3 +12,5 @@ pyLDAvis
 matplotlib
 
 nltk
+seaborn
+ipykernel

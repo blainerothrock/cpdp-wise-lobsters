@@ -1,4 +1,4 @@
-# Checkpoint 5: Natural Language Processing and Machine Learning
+# Checkpoint 5: Text Analytics and Machine Learning
 
 ## setup
 All code for this checkpoint is written in Python3 and requires some dependencies to be installed. We have listed our dependencies in `src/requirements.txt` and we suggest creating a virtual environment before starting. We suggest using Anconda to create a environment:
@@ -8,6 +8,10 @@ All code for this checkpoint is written in Python3 and requires some dependencie
 then install our dependencies using:
 
 `pip install -r requirements.txt` from the `src` directory.
+
+add environment to juypter notebook: 
+
+`python -m ipykernel install --user --name=your_env_name`
 
 here is a  [tutorial](https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307) for getting started with Anaconda. Our code is located in jupyter notebooks, to start the juypter server run `jupyter notebook` in the python environment after install dependencies.
 
